@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon"
+          type="image/png"
+          href="/assets/favicon.png">    
+    <title>On Look For Type</title>
+</head>
+
+<style>
+
+h {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+p {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.line {
+  border-left: 1px solid black;
+  height: 3050px;
+  position: absolute;
+  left: 50%;
+  margin-top: 60px;
+}
+
+move1 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove1 8s infinite;
+}
+
+@keyframes mymove1 {
+  from {top: 0px;}
+  to {top: 260px;}
+}
+move2 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove2 8s infinite;
+  left: 705px;
+}
+
+@keyframes mymove2 {
+  from {top: 0px;}
+  to {top: 520px;}
+}
+move3 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove3 8s infinite;
+  right: 350px;
+}
+
+@keyframes mymove3 {
+  from {top: 0px;}
+  to {top: 780px;}
+}
+move4 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove4 8s infinite;
+  right: 350px;
+}
+
+@keyframes mymove4 {
+  from {top: 245px;}
+  to {top: 1040px;}
+}
+
+move5 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove5 8s infinite;
+  right: 350px;
+}
+
+@keyframes mymove5 {
+  from {top: 245px;}
+  to {top: 1038px;}
+}
+move6 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove6 8s infinite;
+  left: 1px;
+}
+
+@keyframes mymove6 {
+  from {top: 245px;}
+  to {top: 1300px;}
+}
+move7 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove7 8s infinite;
+  left: 0px;
+}
+
+@keyframes mymove7 {
+  from {top: 0px;}
+  to {top: 1820px;}
+}
+move8 {
+  width: 180px;
+  height: 256px;
+  position: relative;
+  animation: mymove8 8s infinite;
+  right: 500px;
+}
+
+@keyframes mymove8 {
+  from {top: 250px;}
+  to {top: 2050px;}
+}
+</style>
+<script>
+
+let linegreen = document.getElementById("linegreen");
+window.addEventListener('scroll', function(){
+  let value = window.scrollY;
+  console.log(value)
+  //linegreen.style.height = value +'px';
+  document.getElementById("linegreen").style.height = value * 1.5 +'px';
+  document.getElementById("eyes").style.top = value * 1.5 +'px';
+})
+</script>
+<body>
+
+  <h>ON LOOK FOR TYPE</h>
+  <p style="position: absolute; position: fixed; top: 0px; left: 660px; width: 100%; color: black">SOHO, NYC</p>
+  <p style="position: absolute; position: fixed; bottom: 0px; left: 620px; width: 100%; color: black">EAST VILLAGE, NYC</p>
+
+  <img id="eyes" src="assets/eyes.png" alt="eyes" style="position: absolute; top: 60px; left: 688px; width: 50px; display: block;">
+
+  <div class="parent">
+    <!-- <div class="div5"><img class="image" src="assets/IMG_8971.png"></div> -->
+    <!-- <div class="div12"><img class="image" src="assets/IMG_8987.png"></div> -->
+    <!-- <div class="div14"><img class="image" src="assets/IMG_8976.png"></div> -->
+    <!-- <div class="div19"><img class="image" src="assets/IMG_8990.png"></div> -->
+    <div class="div21"><img class="image" src="assets/IMG_8939.png"></div>
+    <div class="div27"><img class="image" src="assets/IMG_8935.png"></div>
+    <div class="div36"><img class="image" src="assets/IMG_9654.png"></div>
+    <div class="div38"><img class="image" src="assets/IMG_8962.png"></div>
+    <div class="div41"><img class="image" src="assets/IMG_7575.png"></div>
+    <div class="div48"><img class="image" src="assets/IMG_1685.png"></div>
+
+<move1><img class="image" src="assets/IMG_8971_cutout.png"></move1>
+<move2><img class="image" src="assets/IMG_8987_cutout.png"></move2>
+<move3><img class="image" src="assets/IMG_8976_cutout.png"></move3>
+<move4><img class="image" src="assets/IMG_8990_cutout.png"></move4>
+<move5><img class="image" src="assets/IMG_8939_cutout.png"></move5>
+<move6><img class="image" src="assets/IMG_8935_cutout.png"></move6>
+<move7><img class="image" src="assets/IMG_9654_cutout.png"></move7>
+<move7><img class="image" src="assets/IMG_8962_cutout.png"></move7>
+
+<div class="div5"><a href="index-1.html"><img class="image" src="assets/IMG_8971.png"></a></div>
+<div class="div12"><a href="index-2.html"><img class="image" src="assets/IMG_8987.png"></a></div>
+<div class="div14"><a href="index-3.html"><img class="image" src="assets/IMG_8976.png"></a></div>
+<div class="div19"><a href="index-4.html"><img class="image" src="assets/IMG_8990.png"></a></div>
+
+
+
+<div class="line"></div>
+<div id="linegreen"></div>
+
+</body>
+
+</html>
